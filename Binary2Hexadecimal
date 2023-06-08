@@ -26,17 +26,10 @@ print("Total Length:", hexadecimalEquivalent [4:8])
 print("Identification:", hexadecimalEquivalent [8:12])
 print("Flags and Fragments:", hexadecimalEquivalent [12:16])
 print("TTL:", hexadecimalEquivalent [16:18])
-
-
-
 print("Protocol:", hexadecimalEquivalent [18:20])
-
-
-
 print("Header Checksum:", hexadecimalEquivalent [20:24])
 print("Source:", hexadecimalEquivalent [24:32])
-
-
-
 print("Destination:", hexadecimalEquivalent [32:40])
+
+
 
