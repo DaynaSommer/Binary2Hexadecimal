@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jul 25 12:40:11 2022
+
+"""
+
+print()
+print("Homework 2 - Dayna Sommer - CIS 2110")
+
+binaryString = input("Enter the binary string: ")
+binaryRep = int(binaryString, 2)
+hexadecimalEquivalent = hex(binaryRep) [2:]
+print()
+print("Hexidecimal Equivalent:")
+print(hexadecimalEquivalent)
+
+
+    
+
+print()
+print("Version:", hexadecimalEquivalent [0])
+print("Header Length:", " ", hexadecimalEquivalent[1]," ", "(",int(len(hexadecimalEquivalent)/2)," ", "bytes)", sep="")
+print("TOS:", hexadecimalEquivalent [3:5])
+print("Total Length:", hexadecimalEquivalent [4:8])
+print("Identification:", hexadecimalEquivalent [8:12])
+print("Flags and Fragments:", hexadecimalEquivalent [12:16])
+print("TTL:", hexadecimalEquivalent [16:18])
+
+
+
+print("Protocol:", hexadecimalEquivalent [18:20])
+
+
+
+print("Header Checksum:", hexadecimalEquivalent [20:24])
+print("Source:", hexadecimalEquivalent [24:32])
+
+
+
+print("Destination:", hexadecimalEquivalent [32:40])
+
